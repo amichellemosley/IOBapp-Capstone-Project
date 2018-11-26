@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
-import { Diary } from '../bolusdiary/bolusdiary';
-import { settings } from '../bolussettings/bolussettings';
+import { BolusDiaryPage } from '../bolusdiary/bolusdiary';
+import { BolusSettingsPage } from '../bolussettings/bolussettings';
 import { HomePage } from '../home/home';
 
 @Component({
@@ -10,8 +10,8 @@ import { HomePage } from '../home/home';
 export class TabsPage {
 
   tab1Root = HomePage;
-  tab2Root = Diary;
-  tab3Root = settings;
+  tab2Root = BolusDiaryPage;
+  tab3Root = BolusSettingsPage;
 
   constructor() {
 
