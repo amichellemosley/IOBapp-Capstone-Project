@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { SettingsServiceProvider } from '../../providers/settings-service/settings-service';
+
 
 @Component({
   selector: 'page-bolusbettings',
@@ -7,7 +9,7 @@ import { NavController } from 'ionic-angular';
 })
 export class BolusSettingsPage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, public dataService: SettingsServiceProvider) {
 
   }
 
