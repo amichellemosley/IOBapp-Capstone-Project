@@ -11,4 +11,6 @@ export class BolusDiaryPage {
 
   }
 
+  title = "Bolus Diary"
+
 }

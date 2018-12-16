@@ -1,6 +1,8 @@
 {
   "name": "IOBapp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular",
   "pro_id": "bd6af66d"
 }

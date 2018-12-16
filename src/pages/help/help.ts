@@ -12,4 +12,7 @@ export class HelpPage {
 
   }
 
+  title = " How to Use "
+
+  
 }

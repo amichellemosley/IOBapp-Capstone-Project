@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>IOB-Active Insulin on Board</ion-title>
+    <ion-title>{{title}}</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -11,28 +11,28 @@
 
     <ion-item>
     <ion-label > Current BG </ion-label>
-      <ion-input [(ngModel)]="calculate.bg" name="bg" type="number" placeholder="Enter your current BG:"></ion-input>
+      <ion-input [(ngModel)]="bg" name="bg" type="number" placeholder="Enter your current BG:"></ion-input>
     </ion-item>
 
 
     <ion-item>
     <ion-label > Carbs being Consumed </ion-label>
-      <ion-input [(ngModel)]="calculate.carbs" name="carbs" type="number" placeholder="Enter how many carbs:"></ion-input>
+      <ion-input [(ngModel)]="carbs" name="carbs" type="number" placeholder="Enter how many carbs:"></ion-input>
     </ion-item>
 
 
     <ion-item>
     <ion-label > Hours since last bolus </ion-label>
-      <ion-input [(ngModel)]="calculate.hours" name="hours" type="number" placeholder="Enter how many hours since last bolus?"></ion-input>
+      <ion-input [(ngModel)]="hours" name="hours" type="number" placeholder="Enter how many hours since last bolus?"></ion-input>
     </ion-item>
 
 <ion-item>
     <ion-label > Sensitivity Ratio </ion-label>
-      <ion-input [(ngModel)]="calculate.ratio" name="ratio" type="number" placeholder="Enter your sensitivity ratio:" ></ion-input>
+      <ion-input [(ngModel)]="ratio" name="ratio" type="number" placeholder="Enter your sensitivity ratio:" ></ion-input>
     </ion-item>
 
   <div padding>
-<button ion-button type="submit" round color="primary" (click)="calculate(bg, carbs, hours, ratio)">IOB amt / Suggested Bolus</button>
+<button ion-button type="submit" round color="primary" (click)="sendInfo(bg, carbs, hours, ratio)">IOB amt / Suggested Bolus</button>
 
   </div>  
 </ion-list>
