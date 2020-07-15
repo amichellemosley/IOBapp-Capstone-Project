@@ -8,5 +8,5 @@
 <br>•Command line ‘ionic serve’ to launch the app in your browser</br>
 
 <br><h2> Check out the sample app image! </br></h2>
-<img src="file:///C:\Users\Ashley\Pictures\Screenshot Snipping Tool" alt="sample IOB app image">
+<img src="file:///C:\Users\Ashley\Pictures\Screenshot Snipping Tool\sample IOB app image.jpg" alt="IOB app image">
 
