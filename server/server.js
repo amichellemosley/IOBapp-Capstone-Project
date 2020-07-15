@@ -35,7 +35,7 @@ var TotalUnits = mongoose.model('Bolus Amount', {
 
 app.get('/api/iobapp', function (req, res) {
 
-    console.log("Listing groceries items...");
+    console.log("Listing bolus items...");
 
     TotalUnits.find(function (err, totalUnits) {
 
@@ -44,7 +44,7 @@ app.get('/api/iobapp', function (req, res) {
             res.send(err);
         }
 
-        res.json(groceries); // return newly suggested bolus amount in JSON format
+        res.json(totalUnits); // return newly suggested bolus amount in JSON format
     });
 });
 
