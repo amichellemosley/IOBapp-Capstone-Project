@@ -7,4 +7,6 @@
 <br>•Clone the repository, cd into IOBapp</br>
 <br>•Command line ‘ionic serve’ to launch the app in your browser</br>
 
+<br><h2> Check out the sample app image! </br></h2>
+
 
