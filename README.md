@@ -9,4 +9,4 @@
 
 <br><h2> Check out the sample app image! </br></h2>
 
-
+<br> <img src = "https://github.com/amichellemosley/IOBapp/issues/7#issue-657195397" alt="IOB app image"/> </br>
