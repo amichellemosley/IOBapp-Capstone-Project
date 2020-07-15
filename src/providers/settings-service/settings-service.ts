@@ -8,10 +8,10 @@ import { Injectable } from '@angular/core';
 export class SettingsServiceProvider {
 
 
-getSettings(){return this.http.get('https://someserver.com/api/users')}
+// getSettings(){return this.http.get('https://someserver.com/api/users')}
 /*get your settings from the bolussettings html page, add it to the db*/
 
-addSettings(){return this.http.post('https://someserver.com/api/users')}
+// addSettings(){return this.http.post('https://someserver.com/api/users')}
 
 
   constructor(public http: HttpClient) {

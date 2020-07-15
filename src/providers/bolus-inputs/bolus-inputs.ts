@@ -13,7 +13,7 @@ export class BolusInputsServiceProvider {
 
 
 
-  showPrompt(item, index) 
+  showPrompt(item, index) {
     const prompt = this.alertCtrl.create({
       title: item? 'Edit Item' : 'Add Item',
       message: item? "" : "" ,
@@ -59,9 +59,7 @@ export class BolusInputsServiceProvider {
         }
       ]
     });
-    prompt.present();
+    prompt.present();}
+
+
   }
-
-
-
-}
