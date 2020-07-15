@@ -6,5 +6,5 @@
 <br>•Copy and paste the code from your new app on your ionic dashboard it will look something like this: "7e376b46", then add this in your cmdline $ ionic link 73e76b46</br>
 <br>•Clone the repository, cd into IOBapp</br>
 <br>•Command line ‘ionic serve’ to launch the app in your browser</br>
-
+Check out the sample app image!
 
