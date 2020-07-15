@@ -1,7 +1,6 @@
 <h2>IOB {Active Insulin on Board} </h2>
-
-<br><h2> Check out the sample app image!</h2></br>
 <br> <img src = "https://github.com/amichellemosley/IOBapp/issues/7#issue-657195397" alt="IOB app image"/> </br>
+
 <br><h3> Before you get started using the app -- check out the Minimal Viable Product .pdf for product details in the marketplace! </h3></br>
 
 <br>•To start you will need to register for an ionic account to have access to the Ionic Dashboard. </br>
